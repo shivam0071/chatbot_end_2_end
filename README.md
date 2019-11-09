@@ -22,5 +22,5 @@ We may add NLP later on.
 
 * Deployment
     * Docker
-    # server ?
+    * server ?
     
