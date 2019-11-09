@@ -19,6 +19,7 @@ We may add NLP later on.
  
 * Backend
     * python flask or django
+    * unit test
 
 * Deployment
     * Docker
