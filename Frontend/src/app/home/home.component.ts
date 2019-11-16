@@ -12,6 +12,7 @@ export class HomeComponent {
 
   element: any;
 
+
   constructor() {
 
     this.element = $('.floating-chat');
@@ -31,18 +32,21 @@ export class HomeComponent {
   }
 
 
+
+
   closeElement() {
+
     var element = $('.floating-chat');
+
+    document.querySelector('.floating-chat').classList.remove("expand");
     element.find('.chat').removeClass('enter').hide();
-    this.element.find('>i').show();
+    element.find('>i').show();
+
     element.removeClass('expand');
 
     element.find('#sendMessage').off('click', this.sendNewMessage());
 
-    setTimeout(function () {
-      element.find('.chat').removeClass('enter').show()
-      //element.click(this.openElement);
-    }, 500);
+
   }
 
   sendNewMessage() {
