@@ -1,0 +1,19 @@
+But wth is Node?
+
+tldr; Node runs JS outside a browser and it is asynchronous by default
+Node.exe is basically a C++ program for running java script (js engine)
+
+
+Something about node -> https://nodejs.org/en/about/
+Node Architecture - https://www.youtube.com/watch?v=XUSHH0E-7zk (imp)
+
+
+Something about Asynchronous Programming -> https://eloquentjavascript.net/11_async.html
+Asynchronous Programming -> https://www.youtube.com/watch?v=jOupHNvDIq8&list=PLTjRvDozrdlydy3uUBWZlLUTNpJSGGCEm&index=3
+
+
+
+Running the node app
+
+node app1.js
+## We just ran a JS code in windows...."not in a browser"
