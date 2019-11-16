@@ -1,0 +1,93 @@
+STEP 1 :
+
+################ Node Installation  ###########C:\Users\lenovo\AppData\Roaming\npm
+But wth is Node?
+# todo - Add the simplest possible explanation with example ( Ravi or Shivam )
+
+
+Something about node -> https://nodejs.org/en/about/
+Node Architecture - https://www.youtube.com/watch?v=XUSHH0E-7zk
+
+
+Something about Asynchronous Programming -> https://eloquentjavascript.net/11_async.html
+Asynchronous Programming -> https://www.youtube.com/watch?v=jOupHNvDIq8&list=PLTjRvDozrdlydy3uUBWZlLUTNpJSGGCEm&index=3
+
+
+********************************************************************************************
+Download Node(Version = v10.16.3) from  https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi
+********************************************************************************************
+
+>>>>>>>>>>>>> To CHECK >>>>>> Whether Node is installed execute below command in terminal or in NodeJS command prompt :
+
+********************************************************************************************
+node -v
+********************************************************************************************
+
+
+STEP 2 :
+
+################ ANGULAR Installation  ###########
+What is Angular
+https://docs.angularjs.org/guide/introduction
+
+
+Either open nodesjs command prompt or windows command prompt and execute the below command
+
+********************************************************************************************
+npm install -g typescript@3.5.3
+********************************************************************************************
+npm install -g @angular/cli@8.2.2
+********************************************************************************************
+
+
+>>>>>>>>>>>>> To CHECK >>>>>> Whether Angular is installed execute below command in NodeJS command prompt :
+
+********************************************************************************************
+ng v
+********************************************************************************************
+
+>>>>>>>>>>>>>>>  O/p >>>>>>>>>>>>>>>>>>>>>>>>
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / ? \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 8.2.2
+Node: 10.16.3
+OS: win32 x64
+Angular:
+...
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.802.2
+@angular-devkit/core         8.2.2
+@angular-devkit/schematics   8.2.2
+@schematics/angular          8.2.2
+@schematics/update           0.802.2
+rxjs                         6.4.0
+
+
+
+Finally set the path variable >>>>   C:\Users\<username>\AppData\Roaming\npm
+
+
+
+Step 3
+
+########################  Setting UP FrontEND  ######################
+
+clone the project and go to Frontend directory and run the below command
+
+********************************************************************************************
+npm install
+********************************************************************************************
+
+Executing frontend :
+
+********************************************************************************************
+ng server --o
+********************************************************************************************
