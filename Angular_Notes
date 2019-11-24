@@ -1,0 +1,61 @@
+1.) Install Node js --> Google Download Node
+    *************************
+    check using node --version
+    *************************
+2.) Using NPM ( node package Manager ) Install angular CLI ( command line interface )
+    *************************
+    npm install -g @angular/cli
+    *************************
+    where g is for global installation of cli
+
+3.) Create a project using
+    *************************
+    ng new hello-angular
+    *************************
+    it creates a new project
+
+4.) Run it using
+    *************************
+    ng serve
+    *************************
+
+
+
+Project Structure -
+Folder
+    e2e -> Used for end 2 end testing
+    node_modules -> all the third party softwares are saved here...when the app is deployed these modules are bundled
+    src -> Out source code here
+         app -> each app has atlease one module and a component
+         asset - > images, icons etc
+         env -> config setting for diiferent env...prod and test
+         faviconicon -> fav icon
+         index.html -> our app
+         main.ts -> starting point of our app ( points to app folder ...module and component)
+         polyfills.ts --> helps in running Angular... Angular uses features of JS that are not available in current version of JS supported by most browsers
+         polyfills fills the gap between the features of JS that Angular needs and the features supported y the current version of Browsers,
+         styles.css --> Add global styles here..
+         test.ts --> setting up testing ENV
+
+    .angular-cli.json --> Configuration
+    .editorconfig --> Editor settings
+    .gitignore --> excluding certain files and folder for git
+    karma.cong.js --> conf file for test runner for JS code
+    package.json --> name, version and dependencies(imports)...of our app also dev dependencies -- for debugging..don't need these for running in prd
+    protractor.conf.json -- > for running end2end testing
+    tsconfig.json --> Settings for Type Script Compiler..
+    tslint.json --> checks code for readability, maintainbility etc
+
+
+
+
+Hot Module Replacement (HMR) -> Pages gets updated without refreshing, done by webpack..it updates all the bundles (runtime.js,styles.js,polyfills, vendor etc)
+and inject these in index.html at runtime...hence we see an update...
+even the style sheets are bundled in a js
+
+
+
+
+#########TYPE SCRIPT##############
+
+
