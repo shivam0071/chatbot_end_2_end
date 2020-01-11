@@ -25,11 +25,11 @@ Project Structure -
 Folder
     e2e -> Used for end 2 end testing
     node_modules -> all the third party softwares are saved here...when the app is deployed these modules are bundled
-    src -> Out source code here
+    src -> Our source code here
          app -> each app has atlease one module and a component
          asset - > images, icons etc
          env -> config setting for diiferent env...prod and test
-         faviconicon -> fav icon
+         favicon.ico -> fav icon
          index.html -> our app
          main.ts -> starting point of our app ( points to app folder ...module and component)
          polyfills.ts --> helps in running Angular... Angular uses features of JS that are not available in current version of JS supported by most browsers
@@ -59,3 +59,50 @@ even the style sheets are bundled in a js
 #########TYPE SCRIPT##############
 
 
+Type Script is a superset of JS, Any line of JS code will also run in TS
+
+1.) Strong Typing
+    eg int i = 33 ( not neccessary but better use them)
+
+2.) OOPS
+3.) Compile Time Errors
+4.) Great Tooling
+
+TS ---------> Transpile -------------> JS
+
+
+code:
+installing TS
+npm install --g typescript
+
+>> tsc --version
+Version 3.5.3
+
+
+# Check TypeScript_Tute folder
+
+1.) Create main.ts
+Write some JS code
+
+2.) Transpile it using TCS which creates a JS version of it
+>> tsc main.ts
+
+while running Angular (ng) it is done under the hood (ng server)
+
+
+3.) Now run the JS using node
+>> node main.js
+
+
+// if we use var keyword then the scope of i is in the full block but using let keyword
+// will restrict it to the closest block
+// main.ts:15:17 - error TS2304: Cannot find name 'i'.
+
+
+
+
+
+Components and Modules:
+
+ng g c course
+# creates a component and registers it
