@@ -17,3 +17,35 @@ Running the node app
 
 node app1.js
 ## We just ran a JS code in windows...."not in a browser"
+
+1. # there is a variable called window which has information about all the variables 
+and other inbuilt functions such as window.console.log()
+but in node we do't have a window object instead we have something called a global
+again global doesn't have information about all the variables declared...instead it only has info about 
+builtins
+
+
+# MODULE
+Module {
+  id: '.',
+  path: 'C:\\Users\\ADMIN\\PycharmProjects\\chatbot_end_2_end\\Node_Tute',
+  exports: {}, // export the current module functions using this....module.export.func_name=func_name
+  parent: null,
+  filename: 'C:\\Users\\ADMIN\\PycharmProjects\\chatbot_end_2_end\\Node_Tute\\app1.js',
+  loaded: false,
+  children: [],
+  paths: [
+    'C:\\Users\\ADMIN\\PycharmProjects\\chatbot_end_2_end\\Node_Tute\\node_modules',
+    'C:\\Users\\ADMIN\\PycharmProjects\\chatbot_end_2_end\\node_modules',
+    'C:\\Users\\ADMIN\\PycharmProjects\\node_modules',
+    'C:\\Users\\ADMIN\\node_modules',
+    'C:\\Users\\node_modules',
+    'C:\\node_modules'
+  ]
+}
+
+
+#import exports(above) using require
+
+// USING NODE inbuilt MODULES.. There are two methods...sync and async..use async
+// https://nodejs.org/dist/latest-v14.x/docs/api/
