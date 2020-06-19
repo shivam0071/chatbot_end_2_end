@@ -1,8 +1,13 @@
 var url = 'http://test1234123.com';
 
+
+const EventEmitter = require('events');
+const emitter = new EventEmitter();
+
 function log(message){
     // Send an http Request
     console.log(message);
+    emitter.emit('messageLogged',{id:1, url:'http://'}); // this dictionary is an event argument obj
 }
 
 // EXPORTING, now we can
