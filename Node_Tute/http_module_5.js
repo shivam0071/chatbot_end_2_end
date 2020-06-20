@@ -8,5 +8,6 @@ const server = http.createServer(); // this is also an event emitter
 server.on('connection',(socket) =>{
 console.log('new connection')
 });
+
 server.listen(3000);
 console.log('listening on port 3000...');

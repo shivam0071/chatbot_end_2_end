@@ -49,3 +49,14 @@ Module {
 
 // USING NODE inbuilt MODULES.. There are two methods...sync and async..use async
 // https://nodejs.org/dist/latest-v14.x/docs/api/
+
+
+
+// EXPRESS - A framework built on top of htp MODULES
+npm i -g nodemon -- for debug=True functionaliy of flask?
+
+nodemon index.js
+
+
+// node JOI
+// npm i joi (index3.js)
